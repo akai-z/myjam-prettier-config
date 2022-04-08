@@ -1,0 +1,19 @@
+
+#!/bin/sh
+
+set -e
+
+copy() {
+  cp ./node_modules/@myjam/prettier-config/.prettierrc.json ./
+}
+
+remove_original_config() {
+  rm -f ./.prettierrc.*
+}
+
+main() {
+  remove_original_config
+  copy
+}
+
+main
