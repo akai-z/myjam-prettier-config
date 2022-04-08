@@ -2,9 +2,6 @@
   "name": "@myjam/prettier-config",
   "version": "1.0.0",
   "license": "MIT",
-  "repository": "my-jam-store/prettier-config",
-  "scripts": {
-    "preinstall": "chmod +x ./install",
-    "install": "./install"
-  }
+  "main": "index.json",
+  "repository": "my-jam-store/prettier-config"
 }
