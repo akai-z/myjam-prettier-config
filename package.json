@@ -2,5 +2,8 @@
   "name": "@myjam/prettier-config",
   "license": "MIT",
   "main": "index.json",
+  "peerDependencies": {
+    "prettier": ">=1.17.0"
+  },
   "repository": "my-jam-store/prettier-config"
 }
