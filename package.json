@@ -1,6 +1,10 @@
 {
   "name": "@myjam/prettier-config",
+  "version": "1.0.0",
   "license": "MIT",
   "main": "index.json",
+  "peerDependencies": {
+    "prettier": ">=1.17.0"
+  },
   "repository": "my-jam-store/prettier-config"
 }
