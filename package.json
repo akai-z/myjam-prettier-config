@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "license": "MIT",
   "main": "index.json",
+  "engines": {
+    "node": ">=8"
+  },
   "peerDependencies": {
     "prettier": ">=1.17.0"
   },
