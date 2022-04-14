@@ -32,7 +32,7 @@ Just reference the Prettier config base in `package.json`:
 ```
 (With this method you don't have to create a Prettier config file.)
 
-### Prettier Config JSON File Method
+### Prettier Config File Method
 Create a Prettier config file [with any of the supported extensions](https://prettier.io/docs/en/configuration.html) (e.g. `.prettierrc.json`) with the following config base reference inside it:
 ```json
 "@myjam/prettier-config"
