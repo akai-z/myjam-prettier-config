@@ -30,7 +30,7 @@ Reference the config base in `package.json`:
 ```json
 "prettier": "@myjam/prettier-config"
 ```
-(You don't need to create a a Prettier config file after that.)
+(You don't need to create a Prettier config file after that.)
 
 ### Prettier Config JSON File Method
 Create a Prettier config JSON file with the following config base reference inside it:
