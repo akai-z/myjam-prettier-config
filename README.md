@@ -1,1 +1,1 @@
-# Myjam Prettier Config
+# Myjam Prettier Config Base
