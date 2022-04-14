@@ -26,24 +26,25 @@ yarn add --dev my-jam-store/prettier-config
 Use the Prettier config base with one of the following methods:
 
 ### `package.json` Method
-Reference the config base in `package.json`:
+Just reference the Prettier config base in `package.json`:
 ```json
 "prettier": "@myjam/prettier-config"
 ```
-(You don't need to create a Prettier config file after that.)
+(With this method you don't have to create a Prettier config file.)
 
 ### Prettier Config JSON File Method
-Create a Prettier config JSON file with the following config base reference inside it:
+Create a Prettier config file [with any of the supported extensions](https://prettier.io/docs/en/configuration.html) (e.g. `.prettierrc.json`) with the following config base reference inside it:
 ```json
 "@myjam/prettier-config"
 ```
+(You don't have to add anything else to the config file.)
 
 ### Config Overwriting Method
-This method allows to use the config base and also overwrite its options.  
-Create a JS config file named `.prettierrc.js` and use the following example to extend the config base inside it:
+This method allows to extend (and use) the Prettier config base and overwrite its options.  
+Create a [Prettier JS config file that supports `module.exports`](https://prettier.io/docs/en/configuration.html) (e.g. `.prettierrc.js`) and use the following example to extend the config base inside it:
 ```js
 module.exports = {
   ...require('@myjam/prettier-config'),
-  semi: false,
+  semi: true,
 };
 ```
