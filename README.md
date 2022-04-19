@@ -45,6 +45,7 @@ Create a [Prettier JS config file that supports `module.exports`](https://pretti
 ```js
 module.exports = {
   ...require('@myjam/prettier-config'),
-  semi: true,
+  printWidth: 120,
+  semi: false,
 };
 ```
